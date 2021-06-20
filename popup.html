@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="button.css">
+</head>
+<style type="text/css">
+    body {
+        min-width: 400px;
+        /* your desired width */
+        max-width: 100%;
+        /* min-height: 500px;
+        max-height: 100%; */
+        position: relative;
+        vertical-align: middle;
+        color: aliceblue;
+        background-color: black;
+    }
+    #row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    
+    h2{
+        padding-left: 5%;
+
+    }
+</style>
+
+<body>
+    <center>
+        <div>
+            <h1>Wazirx Protfolio</h1>
+            <h2 id="total">Loading</h2>
+        </div>
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        <div id='btc'>
+            <h1>BTC</h1>
+            <div id="row">
+                <h2 id="btcinr">Loading</h2>
+                <h2>x</h2>
+                <h2>0.01</h2>
+                <h2>=</h2>
+                <h2 id="btcval">Loading</h2>
+            </div>
+        </div>
+
+        <!-- <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        <div>
+            <h1>ETH</h1>
+            <h2 id="ethinr"></h2>
+        </div> -->
+        
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        <div>
+            <h1>XRP</h1>
+            <div id="row">
+                <h2 id="xrpinr">Loading</h2>
+                <h2>x</h2>
+                <h2>161</h2>
+                <h2>=</h2>
+                <h2 id="xrpval">Loading</h2>
+            </div>
+        </div>
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        <div>
+            <h1>ADA</h1>
+            <div id="row">
+                <h2 id="adainr">Loading</h2>
+                <h2>x</h2>
+                <h2>161.5</h2>
+                <h2>=</h2>
+                <h2 id="adaval">Loading</h2>
+            </div>
+
+        </div>
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        <div>
+            <h1>Cash</h1>
+            <h2 id="cash">Rs: 157</h2>
+
+        </div>
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        <script src="popup.js"></script>
+        <button style="width:75px" id="refresh">Wazirx</button>
+    </center>
+</body>
+
+</html>
